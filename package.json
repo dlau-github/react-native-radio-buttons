@@ -27,11 +27,7 @@
     "segmentedcontrols",
     "segmented-controls"
   ],
-  "author": {
-    "name": "Arnaud Rinquin",
-    "email": "rinquin.arnaud@gmail.com",
-    "url": "http://github.com/ArnaudRinquin"
-  },
+  "author": "x13945",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ArnaudRinquin/react-native-radio-buttons/issues"
