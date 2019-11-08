@@ -2,26 +2,29 @@
   "name": "examples",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "jest-expo": "~18.0.0",
-    "react-native-scripts": "0.0.50",
-    "react-test-renderer": "16.0.0-alpha.12"
-  },
-  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "start": "react-native-scripts start",
-    "eject": "react-native-scripts eject",
-    "android": "react-native-scripts android",
-    "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js --watch"
-  },
-  "jest": {
-    "preset": "jest-expo"
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "expo": "^18.0.3",
-    "react": "16.0.0-alpha.12",
-    "react-native": "^0.45.1",
-    "react-native-radio-buttons": "^1.0.0"
+    "react": "16.9.0",
+    "react-native": "0.61.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0",
+    "react-native-radio-buttons": "../"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }
