@@ -1,18 +1,17 @@
 {
-  "name": "react-native-radio-buttons",
-  "version": "1.0.0",
+  "name": "react-native-radio-buttons-ext",
+  "version": "2.0.0",
   "description": "A react component to implement custom radio buttons-like behaviors: multiple options, only on can be selected at once.",
   "main": "lib/index.js",
   "directories": {
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "demo": "cd examples && npm i && npm start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ArnaudRinquin/react-native-radio-buttons.git"
+    "url": "git@github.com:x13945/react-native-radio-buttons.git"
   },
   "peerDependencies": {
     "prop-types": ">=15.5.0",
@@ -30,7 +29,7 @@
   "author": "x13945",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ArnaudRinquin/react-native-radio-buttons/issues"
+    "url": "https://github.com/x13945/react-native-radio-buttons/issues"
   },
-  "homepage": "https://github.com/ArnaudRinquin/react-native-radio-buttons#readme"
+  "homepage": "https://github.com/x13945/react-native-radio-buttons#readme"
 }

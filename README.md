@@ -1,6 +1,6 @@
-# react-native-radio-buttons
+# react-native-radio-buttons-ext
 
-*IMPORTANT* this package is deprecated by updtream, but I need it for now. But I willl not use it when the official [SegmentedControlIOS](https://facebook.github.io/react-native/docs/segmentedcontrolios.html) component for android is avalible.
+*IMPORTANT* the package is forked from [ArnaudRinquin/react-native-radio-buttons](https://github.com/ArnaudRinquin/react-native-radio-buttons). As the upstream is not maintenance, I create the package for myself.
 
 A react component to implement _radio buttons_-like behaviors: multiple options, only one option can be selected at a given time.
 
@@ -11,15 +11,19 @@ Both the container and option nodes are customizable. Comes with SegmentedContro
 ## Install
 
 ```sh
-npm i -S react-native-radio-buttons
+yarn add react-native-radio-buttons-ext
 ```
 
 ## Demo app
 
 ```sh
-git clone https://github.com/ArnaudRinquin/react-native-radio-buttons.git
-cd react-native-radio-buttons
-npm run demo
+git clone https://github.com/ArnaudRinquin/react-native-radio-buttons-ext.git
+cd react-native-radio-buttons-ext
+
+# run android
+cd examples && yarn && yarn run android
+# run ios
+cd examples && yarn && yarn run ios
 ```
 
 ## Usage
@@ -27,7 +31,7 @@ npm run demo
 Here is an extensive overview of the component usage.
 
 ```jsx
-import { RadioButtons } from 'react-native-radio-buttons'
+import { RadioButtons } from 'react-native-radio-buttons-ext'
 
 // ...
 
@@ -93,7 +97,7 @@ Will render this
 This library comes with a clone of the native `SegmentedControls`, based on `RadioButtons`.
 
 ```jsx
-import { SegmentedControls } from 'react-native-radio-buttons'
+import { SegmentedControls } from 'react-native-radio-buttons-ext'
 
 // ...
 
