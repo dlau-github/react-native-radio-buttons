@@ -1,12 +1,19 @@
 # react-native-radio-buttons-ext
 
-*IMPORTANT* the package is forked from [ArnaudRinquin/react-native-radio-buttons](https://github.com/ArnaudRinquin/react-native-radio-buttons). As the upstream is not maintenance, I create the package for myself.
+**Notes** I forked this package from [x13945/react-native-radio-buttons](https://github.com/x13945/react-native-radio-buttons). It has been two years since the package was last maintained and it so happens this package also provides the features that I want that other radio button packages couldn't.
 
 A react component to implement _radio buttons_-like behaviors: multiple options, only one option can be selected at a given time.
 
 Both the container and option nodes are customizable. Comes with SegmentedControls clone, only more customizable (see below, animations to come).
 
 ![example](./images/example.png)
+
+## Planned Updates
+
+I won't be changing any of the core functionality at all, but currently my plans are as follows:
+
+* Update to react hook
+* Add testID to the components to work with automated testing (detox)
 
 ## Install
 
